@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="digital boost.css">
+   <!-- JS -->
+   <script src="digital boost.js" defer></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <title>Digital Boost </title>
+<!-- Flatpickr CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+<!-- Flatpickr JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<link rel="icon" href="Assets/Images/Digital Boost logo.png" sizes="16x16" type="image/x-icon">
+    <link rel="icon" href="Assets/Images/Digital Boost logo.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="Assets/Images/Digital Boost logo.png" sizes="64x64" type="image/png">
+
+
+   <script>
+        if (window.innerWidth <= 768) {
+            console.log("You're on a phone screen.");
+        }
+    </script>
+    
+    <title>Digital Boost Marketing Agency </title>
+    <style>
+        /* Optional CSS for smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <a href="#home" class="logo">Digital Boost </a>
+
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+                <!--<a href="#portfolio">Portfolio</a>-->
+                <a href="#contact">Contact</a>
+                <a href="#projects">Projects</a>
+                <a href="#blog">Blog</a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!-- Home Section -->
+    <section class=" home slide-up" id="home" id="home">
+        <head>
+            <meta name="description" content=" Transform your online presence with our digital marketing agency. We offer SEO, social media management, and targeted ad campaigns to grow your business.">
+          </head>
+          
+       <!-- <div class="home-img">
+            <img src="WhatsApp_Image_2024-10-01_at_1.36.37_PM-removebg-preview.png" alt="">
+        </div>-->
+        <div class="home-content">
+            <h1>Digital<span> Boost</span></h1>
+            <h3 class="typing-text">We do <span></span></h3>
+            <p>At Digital Boost Marketing Agency, we specialize in creating customized digital marketing strategies designed to accelerate business growth, strengthen brand identity, and enhance online visibility. Our team of experts leverages data-driven insights and innovative marketing techniques to help businesses stand out in the digital landscape. Whether you're looking to increase engagement, drive more traffic, or establish a strong brand presence, we have the expertise to turn your goals into reality. Partner with us today and take your business to new heights in the digital world.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/company/digital-boost-hargeisa/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/share/16yoYKsUs6/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+               <!-- <a href="https://x.com/the__pirate_1/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>-->
+                <a href="https://www.instagram.com/digital__boost_/profilecard/?igsh=MWpkOWsyYW1iMG9zbw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href=" https://www.threads.net/@digital__boost_?invite=0" target="_blank"><i class="fa-brands fa-threads"></i></a>
+                <a href="https://www.tiktok.com/@digitalboostmarketing1?_t=8sZ3UEfECIo&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+               <!--- <a href="https://wa.me/12123472861" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>-->
+            </div>
+            
+            <a href="#about" class="btn">More Info</a> <!-- Links to About section -->
+        </div>
+    </section>
+
+    <section class="clients-section">
+        <div class="title"><h1>OUR CLIENTS</h1></div>
+        <p>We have experience working with clients in <span id="myText"></span></p>
+
+        
+        <div class="clients-grid">
+            <img src="Assets/Images/canon.jpg" alt="Canon">
+            <img src="Assets/Images/cocacola.jpg" alt="Coca Cola">
+            <img src="Assets/Images/Netflix.jpg" alt="Netflix">
+            <img src="Assets/Images/Discord.jpg" alt="Discord">
+            <img src="Assets/Images/Fox.jpg" alt="Fox">
+            <img src="Assets/Images/HBO max.jpg" alt="HBO Max">
+            <img src="Assets/Images/Amazon music.jpg" alt="Amazon Music">
+            <img src="Assets/Images/minecraft.jpg" alt="Minecraft">
+            <img src="Assets/Images/google.jpg" alt="Google">
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Services Section -->
+<section class="services" id="services">
+    <head>
+        <meta name="description" content="Unlock your business potential with our tailored services in SEO, paid ads, and social media marketing. Let us help you stand out in the digital landscape.">
+      </head>
+      
+    <div class="title"><h3><span>Services</span></h3></div>
+    <div class="title"><h5><span>Our Best Services</span></h5></div>
+    <div class="services-content">
+        <div class="service-item" onclick="openBookingForm('Content Marketing')">
+            <!-- Adding GIF for Marketing Strategy -->
+            <img src="Assets/Images/content.gif" alt="Marketing Strategy GIF" class="service-gif">
+            <h3> Content Marketing </h3>
+            <p>Developing customized marketing strategies that drive business growth and audience engagement.</p>
+        </div>
+        <div class="service-item" onclick="openBookingForm('Web Development')">
+            <!-- Adding GIF for Web Development -->
+            <img src="Assets/Images/Web Creation.gif" alt="Web Development GIF" class="service-gif">
+            <h3>Web Development</h3>
+            <p>Creating responsive and modern websites that align with business goals.</p>
+        </div>
+        <div class="service-item" onclick="openBookingForm('SEO Optimization')">
+            <!-- Adding GIF for SEO Optimization -->
+            <img src="Assets/Images/Web Opt.gif" alt="SEO Optimization GIF" class="service-gif">
+            <h3>SEO Optimization</h3>
+            <p>Enhancing website visibility on search engines with effective SEO techniques.</p>
+        </div>
+        <div class="service-item" onclick="openBookingForm('Email Marketing')">
+            <!-- Adding GIF for Email Marketing -->
+            <img src="Assets/Images/email.gif" alt="Email Marketing GIF" class="service-gif">
+            <h3>Email Marketing </h3>
+            <p>Enhancing website visibility on search engines with effective SEO techniques.</p>
+        </div>
+        <div class="service-item" onclick="openBookingForm('Email Marketing')">
+            <!-- Adding GIF for Email Marketing -->
+            <img src="Assets/Images/graphics.jpg" alt="Email Marketing GIF" class="service-gif">
+            <h3>Graphic Design  </h3>
+            <p>Enhancing Your  visibility on search engines with effective SEO techniques.</p>
+        </div>
+        <div class="service-item" onclick="openBookingForm('Email Marketing')">
+            <!-- Adding GIF for Email Marketing -->
+            <img src="Assets/Images/mobile app dev.jpg" alt="Email Marketing GIF" class="service-gif">
+            <h3>Mobile App Development </h3>
+            <p>Enhancing website visibility on search engines with effective SEO techniques.</p>
+        </div>
+        <div class="service-item" onclick="openBookingForm('Email Marketing')">
+            <!-- Adding GIF for Email Marketing -->
+            <img src="Assets/Images/ecom marketing.jpg" alt="Email Marketing GIF" class="service-gif">
+            <h3>E-commerce  Marketing </h3>
+            <p>Enhancing website visibility on search engines with effective SEO techniques.</p>
+        </div>
+        <div class="service-item" onclick="openBookingForm('Social Media Marketing')">
+            <!-- Adding GIF for Email Marketing -->
+            <img src="Assets/Images/social m designs.jpg" alt="Email Marketing GIF" class="service-gif">
+            <h3>Social Media Marketing  </h3>
+            <p>Enhancing Online  visibility on social media  with effective SMM techniques.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Booking Form Overlay (Hidden by Default) -->
+<!-- Booking Form Overlay -->
+<div id="bookingFormOverlay" class="booking-form-overlay">
+    <div class="booking-form">
+        <!-- Close Button -->
+        <span class="close-btn" onclick="closeBookingForm()">×</span>
+        
+        <!-- Booking Form -->
+        <h2>Book Your Appointment for <span id="serviceName"></span></h2> <!-- Dynamic service name -->
+        <form id="booking-form-content">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="appointment">Appointment Date:</label>
+            <input type="text" class="datepicker" id="appointment" name="appointment" required>
+            
+            <label for="time">Appointment Time:</label>
+            <input type="text" class="timepicker" id="time" name="time" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+
+        <!-- Confirmation message box -->
+        <div id="confirmationMessage" style="display: none;">
+            <h3>You're Booked! 🎉</h3>
+            <p>Thank you for booking with us! We look forward to seeing you on your appointment date and time.</p>
+            <button onclick="closeBookingForm()">OK</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+    
+<!--Reviews Section -->
+    <div class="review-section">
+        <div class="review-card">
+            <img src="Assets/Images/Telesom.jpeg" alt="Reviewer Photo" class="review-photo">
+            <p class="review-text">Digital Boost played a crucial role in elevating Telesom’s brand image through high-quality graphic design and visual content. Their team created stunning, engaging visuals for our marketing campaigns, improving brand recognition and customer engagement. Thanks to their creativity and professionalism, our digital presence has never looked better!”</p>
+            <p class="review-author">A/laahi Ahmed, Telesom's HRM</p>
+            <div class="stars">★★★★★</div>
+        </div>
+        <div class="review-card">
+            <img src="Assets/Images/IMG_7917.JPG" alt="Reviewer Photo" class="review-photo">
+            <p class="review-text">The Digital Boost team completely transformed our brand’s presence. From stunning visuals to targeted advertising, every strategy was tailored to our goals. We saw a 500% ROI on our ad spend and significantly improved our brand awareness. If you want real results, this is the team to work with!”</p>
+            <p class="review-author"> Arib Khan</p>
+            <div class="stars">★★★★☆</div>
+        </div>
+        <div class="review-card">
+            <img src="Assets/Images/winter gloves.jpeg" alt="Reviewer Photo" class="review-photo">
+            <p class="review-text">Before partnering with Digital Boost, we struggled to get traffic and visibility online. Their SEO strategies and content marketing plan helped us rank higher on Google, bringing in consistent organic leads. Now, we're attracting the right audience and growing faster than ever!”</p>
+            <p class="review-author"> Alex Corrado, Ceo of Wintergloves </p>
+            <div class="stars">★★★★★</div>
+        </div>
+        <div class="review-card">
+            <img src="Assets/Images/images.png" alt="Reviewer Photo" class="review-photo">
+            <p class="review-text">Working with Digital Boost was the best decision we made for our business! Their expertise in social media marketing and paid ads helped us increase our engagement by 300% and triple our leads within just three months. The team is professional, creative, and always delivers beyond expectations. Highly recommended!”</p>
+            <p class="review-author"> Abdifatah Faisal</p>
+            <div class="stars">★★★★★</div>
+        </div>
+        <div class="review-card">
+            <img src="Assets/Images/canon.jpg" alt="Reviewer Photo" class="review-photo">
+            <p class="review-text">With Digital Boost’s expert digital marketing strategies, we were able to connect with a broader audience and drive more traffic to our website. Their targeted ad campaigns and SEO optimization helped increase our product visibility, leading to a 35% increase in online sales. Their professionalism and dedication are unmatched!”</p>
+            <p class="review-author"> Mark Peterson, Digital Marketing Manager at Canon</p>
+            <div class="stars">★★★★★</div>
+        </div>
+        <div class="review-card">
+            <img src="Assets/Images/cocacola.jpg" alt="Reviewer Photo" class="review-photo">
+            <p class="review-text">We wanted to create a more engaging and interactive experience for our customers, and Digital Boost helped us achieve that. Their social media strategy and influencer collaborations led to a 400% boost in engagement across all our platforms. Their innovative approach keeps our brand ahead of the curve!”</p>
+            <p class="review-author"> Emily Roberts, Brand Strategist at Coca-Cola</p>
+            <div class="stars">★★★★★</div>
+        </div>
+        <div class="review-card">
+            <img src="Assets/Images/Netflix.jpg" alt="Reviewer Photo" class="review-photo">
+            <p class="review-text">Digital Boost helped us fine-tune our online advertising campaigns and develop a highly targeted content strategy. Their insights into consumer behavior and analytics helped us increase subscription sign-ups by 50%, ensuring that our content reaches the right audience at the right time!"”</p>
+            <p class="review-author"> David Warner, Marketing Lead at Netflix</p>
+            <div class="stars">★★★★★</div>
+        </div>
+        <div class="review-card">
+            <img src="Assets/Images/sweatcoin-logo-.jpg" alt="Reviewer Photo" class="review-photo">
+            <p class="review-text">Digital Boost played a key role in the development of the Sweet Wallet App, enhancing its UI/UX and driving user engagement. Their strategic marketing and design expertise helped attract a strong user base, making the app more accessible and user-friendly. Their innovative approach was instrumental in our success!</p>
+            <p class="review-author"> Juan Waterson, Head Of DEV at Sweetcoin</p>
+            <div class="stars">★★★★★</div>
+        </div>
+        
+        <!-- Add more review cards as needed -->
+    </div>
+    <div class="button" id="ref">
+        <a href="#contact" class="btn"> Get a Free Consultation </a>
+        </div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="title"><span>About Us </span></div>
+        <div class="about-details">
+            <div class="left-img">
+                <!--<img src="WhatsApp_Image_2024-10-01_at_1.36.37_PM-removebg-preview.png" alt="About Image">-->
+            </div>
+            <div class="right">
+                <div class="topic">Who are We </div>
+                <p> With over 6 years of experience in digital marketing, Digital Boost Marketing Agency is committed to delivering impactful marketing solutions. Our team is dedicated to helping clients thrive in today’s competitive digital landscape through data-driven strategies and innovative thinking.</p>
+                <div class="right">
+                    <div class="topic">Vission  </div>
+                    <p>To empower businesses to reach their full digital potential by creating tailored, results-driven marketing strategies. My goal is to be a trusted partner for clients, guiding them to achieve sustainable growth and a positive impact in their industries through innovative digital marketing practices.</p>
+                    <div class="right">
+                        <div class="topic">Mission  </div>
+                    <p>At Digital Boost Marketing Agency, our mission is to empower businesses of all sizes to reach their full potential by delivering innovative, data-driven marketing solutions. We are committed to fostering sustainable growth for our clients by enhancing their digital presence, driving customer engagement, and maximizing return on investment. Through a client-centric approach and a passion for results, we aim to build lasting partnerships that create measurable success in an ever-evolving digital landscape.
+
+                    </p>
+                        
+                    
+                        <div class="button">
+                            <a href="#contact" class="btn"> Contact Us</a>
+
+                </div> 
+            </div>
+        </div>        
+    </section>
+
+    <!-- Technologies & Platforms Section -->
+<section id="technology" class="technology_wrapper">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <!--<p class="tech_subtitle">Powering Innovation with Cutting-Edge Tools</p>-->
+                <h2 class="tech_title">Technologies & Platforms We Use</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/react.svg" alt="React">
+                <p>React</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/angular.svg" alt="Angular">
+                <p>Angular</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/python.svg" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/aws.svg" alt="AWS">
+                <p>AWS</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/firebase.svg" alt="Firebase">
+                <p>Firebase</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/mysql.svg" alt="MySQL">
+                <p>MySQL</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/mongodb.svg" alt="MongoDB">
+                <p>MongoDB</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/dot-net.svg" alt=".NET">
+                <p>.NET</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/flutter.svg" alt="Flutter">
+                <p>Flutter</p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 tech_card">
+                <img src="Assets/icons/node-js.svg" alt="Flutter">
+                <p>node-js</p>
+            </div>
+        
+        </div>
+    </div>
+</section>
+   
+    
+    
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="title"><span>Our Work  </span></div>
+        <div class="portfolio-content">
+            <div class="portfolio-item">
+                <img src="Assets/Images/4U ANime Web App.jpg" alt="Portfolio Project 1">
+                <h3> 4U ANime website </h3>
+                <p></p>
+                <!--<div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>-->
+            </div>
+            <div class="portfolio-item">
+                <img src="Assets/Images/sweet wallet app.jpg" alt="Portfolio Project 1">
+                <h3> Sweet Wallet App </h3>
+                <p></p>
+                <!--<div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>-->
+            </div>
+            <div class="portfolio-item">
+                <img src="Assets/Images/Web 3 AGency web.jpg" alt="Portfolio Project 1">
+                <h3> Web 3 website </h3>
+                <p></p>
+                <!--<div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>-->
+            </div>
+            <div class="portfolio-item">
+                <img src="Assets/Images/Naruuto web.jpg" alt="Portfolio Project 1">
+                <h3> Naruto Web app </h3>
+                <p></p>
+                <!--<div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>-->
+            </div>
+            <div class="portfolio-item">
+                <img src="Assets/Images/Ultiflex web.jpg" alt="Portfolio Project 1">
+                <h3> Ultiflex Web app </h3>
+                <p></p>
+                <!--<div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>-->
+            </div>
+            <div class="portfolio-item">
+                <img src="Assets/Images/Netflix web.jpg" alt="Portfolio Project 1">
+                <h3> Netflix Web app </h3>
+                <p></p>
+                <!--<div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>-->
+            </div>
+            <div class="portfolio-item">
+                <img src="Assets/Images/telesom graphic.jpg" alt="Portfolio Project 1">
+                <img src="Assets/Images/telesom graphics 1.jpg" alt="Portfolio Project 1">
+                <h3> Telesom graphics </h3>
+                <p></p>
+                <!--<div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>-->
+            </div>
+            <div class="portfolio-item">
+                <img src="Assets/Images/Dead pool web.jpg" alt="Portfolio Project 1">
+                <img src="Assets/Images/Dead pool web.jpg" alt="Portfolio Project 1">
+                <img src="Assets/Images/Dead pool web.jpg" alt="Portfolio Project 1">
+                <h3> Dead pool Web app </h3>
+                <p></p>
+                <!--<div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>-->
+            </div>
+        </div>
+    </section>
+    
+
+  <!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="title"><span>Contact Us</span></div>
+    <p id="contact-animation-text">
+        You can leave here your <span id="changing-text"> First Name </span>. And we'll reach out to you shortly.
+    </p>
+
+    <div class="contact-box">
+        <form action="https://getform.io/f/aroynpqb" method="POST">
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone (Optional)</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+<section class="projects" id="projects">
+    <div class="title">
+        <h3><span>Projects</span></h3>
+    </div>
+    <div class="title">
+        <h5><span>Our Recent Work</span></h5>
+    </div>
+    <div class="projects-content">
+        <div class="project-card">
+            <img src="Assets/Images/web design.jpg" alt="Project 1 Image" class="project-image">
+            <div class="project-info">
+                <h3> Kulan AGency website</h3>
+                <p>Digital Boost proudly powered the creative and strategic direction behind the impactful Kulan Web, delivering innovative website that captivated audiences and drove results..</p>
+                <a href="#" class="project-link">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="Assets/Images/sweet wallet app.jpg" alt="Project 2 Image" class="project-image">
+            <div class="project-info">
+                <h3>Sweet Wallet App </h3>
+                <p>Digital Boost successfully developed the Sweet Wallet app, creating a secure and user-friendly platform that simplifies crypto transactions, enhances security, and optimizes digital asset management.</p>
+                <a href="#" class="project-link">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="Assets/Images/web design 2.jpg" alt="Project 1 Image" class="project-image">
+            <div class="project-info">
+                <h3> Bix Ai website</h3>
+                <p>Digital Boost successfully developed the Bix AI web app, integrating advanced AI technology to optimize automation, enhance user interactions, and drive smarter decision-making for businesses.</p>
+                <a href="#" class="project-link">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="Assets/Images/Dead pool web.jpg" alt="Project 2 Image" class="project-image">
+            <div class="project-info">
+                <h3> DEad Pool Web  Design </h3>
+                <p>Digital Boost expertly crafted the Dead Pool Web Design platform, delivering a sleek, high-performance website that enhances user experience, boosts engagement, and elevates online presence.</p>
+                <a href="#" class="project-link">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="Assets/Images/Digital marketing poster (2).jpg" alt="Project 1 Image" class="project-image">
+            <div class="project-info">
+                <h3> Zalim Graphics </h3>
+                <p>Digital Boost successfully developed the Zalim Graphics web app, creating a dynamic and intuitive platform that streamlines design workflows, enhances creativity, and improves client collaboration.
+
+
+
+
+
+
+
+                </p>
+                <a href="#" class="project-link">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="Assets/Images/Digital marketing poster (3).jpg" alt="Project 2 Image" class="project-image">
+            <div class="project-info">
+                <h3>Tarmiye reative graphic Design </h3>
+                <p>Digital Boost expertly developed the Tarmiye Graphics Design web app, creating a seamless platform that enhances design workflows, improves client collaboration, and boosts online visibility for creative professionals.</p>
+                <a href="#" class="project-link">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="Assets/Images/Web 3 AGency web.jpg" alt="Project 2 Image" class="project-image">
+            <div class="project-info">
+                <h3>Web 3 website </h3>
+                <p>Digital Boost successfully developed the Web3 Agency web app, integrating cutting-edge blockchain technology with intuitive design to streamline decentralized marketing, improve user engagement, and enhance operational efficiency.</p>
+                <a href="#" class="project-link">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="Assets/icons/gemini.jpg" alt="Project 2 Image" class="project-image">
+            <div class="project-info">
+                <h3> Google Gemini Ai </h3>
+                <p>Digital Boost successfully developed the Gemini AI web app, integrating advanced AI capabilities to streamline processes, enhance efficiency, and deliver smarter, data-driven solutions.        </p>
+                <a href="#" class="project-link">View Details</a>
+            </div>
+        </div>
+        
+        <!-- Add more project cards as needed -->
+    </div>
+</section>
+
+    <!-- Our Team Section -->
+    <section id="team-stats">
+        <!--<h2>Our Team</h2>
+        <div class="team-container">
+            <-- Team member cards --
+            <div class="team-card">
+                <img src="Assets/Images/zeos pfp.PNG" alt="Team Member 1" class="team-photo">
+                <div class="team-name">John Doe</div>
+                <div class="team-role">Developer</div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>
+            </div>
+            <div class="team-card">
+                <img src="Assets/Images/Ibro.JPG" alt="Team Member 1" class="team-photo">
+                <div class="team-name">John Doe</div>
+                <div class="team-role">Developer</div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>
+            </div>
+            <div class="team-card">
+                <img src="Assets/Images/shafec.PNG" alt="Team Member 1" class="team-photo">
+                <div class="team-name">John Doe</div>
+                <div class="team-role">Developer</div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                  </div>
+            </div>
+            Add more team cards as needed -->
+        </div>
+    
+        <h2>Our Stats</h2>
+<div class="stats-container">
+    <!-- Stat items -->
+    <div class="stat-item">
+        <h3 id="clients-count" class="count" data-target="52">0</h3>
+        <p>Trusted Clients</p>
+    </div>
+    <div class="stat-item">
+        <h3 id="services-count" class="count" data-target="72">0</h3>
+        <p>Services</p>
+    </div>
+    <div class="stat-item">
+        <h3 id="followers-count" class="count" data-target="10000">0</h3>
+        <p>Followers</p>
+    </div>
+    <div class="stat-item">
+        <h3 id="awards-count" class="count" data-target="6">0</h3>
+        <p>Awards Won</p>
+    </div>
+    <div class="stat-item">
+        <h3 id="ongoing-projects-count" class="count" data-target="17">0</h3>
+        <p>Ongoing Projects</p>
+    </div>
+</div>
+            <!-- Add more stat items as needed -->
+        </div>
+        
+        <div class="email-signup">
+            <!--<h2>Stay Ahead with Digital Boost</h2>-->
+            <p>Get expert marketing insights, tips, and exclusive offers straight to your inbox.</p>
+            <form id="signup-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button id="qw12" type="submit">Subscribe Now</button>
+            </form>
+            <p class="privacy-note">We respect your privacy. No spam, just value.</p>
+        </div>
+        
+        <!-- Signup Confirmation Popup -->
+        <div class="signup-popup" id="signup-popup">
+            <div class="signup-popup-content">
+                <h3>You're Subscribed! 🎉</h3>
+                <p id="zeos1">Thank you for signing up! You'll receive the latest insights, tips, and exclusive offers from Digital Boost straight to your inbox.</p>
+                <button onclick="closePopup()">OK</button>
+            </div>
+        </div>
+
+          <!-- Benefits of Subscribing -->
+    <div class="subscription-benefits">
+        <h3 id="boom ">Why Subscribe?</h3>
+        <ul>
+            <li>Exclusive marketing insights directly from industry experts.</li>
+            <li>Stay updated with the latest trends in digital marketing.</li>
+            <li>Receive special offers and promotions only for subscribers.</li>
+            <li>Get tips to help grow your business online.</li>
+        </ul>
+    </div>
+</div>
+        
+        
+        
+        <!-- Already Subscribed Popup --
+        <div class="signup-popup" id="already-subscribed-popup">
+            <div class="signup-popup-content">
+                <h3>You're Already Subscribed! 🙌</h3>
+                <p id="me1">It looks like you're already on our list. Stay tuned for updates!</p>
+                <button onclick="closePopup()">OK</button>
+            </div>
+        </div>-->
+        
+
+        
+    </section>
+       <!-- Count up section -->
+      
+
+ <!-- Blog Section -->
+<section class="blog" id="blog">
+    <div class="title">
+        <span>Blog</span>
+    </div>
+    <div class="blog-content">
+        <!-- Blog 1 -->
+        <a href="Who are we.html" class="blog-item">
+            <div class="blog-image-container">
+                <img src="Assets/Images/Digital Boost logo.png" alt="Blog 1" class="blog-image">
+            </div>
+            <h3>Who Are We?</h3>
+        </a>
+        <!-- Blog 2 -->
+        <a href="Enhencing.html" class="blog-item">
+            <div class="blog-image-container">
+                <img src="Assets/Images/graphic dsign service.jpg" alt="Blog 2" class="blog-image">
+            </div>
+            <h3>How Can Our Graphic's Enhance Your Business</h3>
+        </a>
+        <!-- Blog 3 --
+        <a href="blog-post3.html" class="blog-item">
+            <div class="blog-image-container">
+                <img src="Assets/Images/graphics.jpg" alt="Blog 3" class="blog-image">
+            </div>
+            <h3>Latest Trends in Digital Marketing</h3>
+        </a>
+        <!-- Blog 4 --
+        <a href="blog-post4.html" class="blog-item">
+            <div class="blog-image-container">
+                <img src="Assets/Images/another-image.png" alt="Blog 4" class="blog-image">
+            </div>
+            <h3>Why Social Media Marketing is Vital for Your Business</h3>
+        </a>
+        <!-- Blog 5 --
+        <a href="blog-post5.html" class="blog-item">
+            <div class="blog-image-container">
+                <img src="Assets/Images/blog-image-5.png" alt="Blog 5" class="blog-image">
+            </div>
+            <h3>How SEO Can Drive Traffic to Your Website</h3>
+        </a>
+        <!-- Blog 6 --
+        <a href="blog-post6.html" class="blog-item">
+            <div class="blog-image-container">
+                <img src="Assets/Images/blog-image-6.png" alt="Blog 6" class="blog-image">
+            </div>
+            <h3>The Importance of Content Marketing in Business Growth</h3>
+        </a>
+        <!-- Blog 7 --
+        <a href="blog-post7.html" class="blog-item">
+            <div class="blog-image-container">
+                <img src="Assets/Images/blog-image-7.png" alt="Blog 7" class="blog-image">
+            </div>
+            <h3>What Is Google Ads and How Does It Work?</h3>
+        </a>-->
+    </div>
+</section>
+
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h1 id="modal-title">Who Are We?</h1>
+        <p id="modal-content1">
+            At Digital Boost, we pride ourselves on being a dynamic digital marketing agency that blends creativity with data-driven strategies. Founded with the goal of helping businesses thrive in an ever-changing digital landscape, we specialize in social media management, SEO, Google Ads, content creation, and much more. Our passionate team works closely with clients to understand their goals, challenges, and audience, crafting tailored solutions that deliver real results. Whether you're a small startup or an established enterprise, Digital Boost is here to elevate your brand and drive measurable success.
+            
+            Key Takeaways:
+            
+            Digital marketing tailored to your business
+            Expertise in SEO, social media, and PPC
+            A team focused on delivering results</p>
+    </div>
+</div>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close-moda2">&times;</span>
+        <h1 id="modal-title"> How Can Our Graphic's Enhance Your Business?</h1>
+        <p id="modal-content1">
+           
+Graphic design is more than just aesthetics; it’s a powerful tool that can influence how your audience perceives your brand. At Digital Boost, we understand the importance of design in shaping your business identity and message. From logos and brochures to social media graphics and website designs, our designs not only look good but also speak to your target audience. Engaging visuals can lead to higher customer engagement, improved brand recall, and even increase sales. Let us help you tell your story with compelling visuals that resonate with your audience and set you apart from the competition.
+
+Key Takeaways:
+
+Strong visuals build brand identity
+Well-designed graphics enhance user engagement
+Custom graphics that align with your business goals</p>
+    </div>
+</div>
+
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3> Digital Boost Hargeisa</h3>
+                <p>Showcasing expertise in Digital Marketing. Helping businesses grow through strategic digital solutions.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="Policies.html">Privacy Policy</a></li>
+                    <li><a href="Policies.html">Terms of Service</a></li>
+                    <li><a href="Policies.html">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us On </h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/company/digital-boost-hargeisa/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/share/16yoYKsUs6/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                   <!-- <a href="https://x.com/the__pirate_1/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>-->
+                    <a href="https://www.instagram.com/digital__boost_/profilecard/?igsh=MWpkOWsyYW1iMG9zbw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=" https://www.threads.net/@digital__boost_?invite=0" target="_blank"><i class="fa-brands fa-threads"></i></a>
+                    <a href="https://www.tiktok.com/@digitalboostmarketing1?_t=8sZ3UEfECIo&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                   <!-- <a href="https://wa.me/12123472861" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>-->
+                </div>
+            </div>
+        </div>
+        <p class="footer-credit">&copy; 2025 Digital Boost. All rights reserved.</p>
+    </footer>
+    <script>
+        // Function to add animation class when section is in view
+        function animateOnScroll() {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                const sectionPosition = section.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+    
+                if (sectionPosition < screenPosition) {
+                    section.classList.add('section-animation');
+                }
+            });
+        }
+    
+        // Event listener for scrolling
+        window.addEventListener('scroll', animateOnScroll);
+        // Initial check in case elements are already in view on page load
+        window.addEventListener('load', animateOnScroll);
+    </script>
+    
+   <!-- Cookie Banner -->
+   <div id="cookie-banner-overlay"></div>
+   <div class="cookie-banner" id="cookie-banner">
+       <p>This website uses cookies to ensure you get the best experience on our website. <a href="Policies.html">Learn more</a>.</p>
+       <button id="accept-cookies">Got it!</button>
+   </div>
+   
+    
+    <!-- Scroll to Top Button (Robot) -->
+<div id="scrollToTopBtn" class="scroll-to-top">
+    <img src="Assets/icons/Rob.png" alt="Robot" />
+</div>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link to your existing CSS -->
+    <link rel="icon" href="Assets/Images/Digital Boost logo.png" sizes="16x16" type="image/x-icon">
+    <title>Policies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: black;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .back-button {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #452c80;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+        }
+        .back-button:hover {
+            background: #452c80;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav ul li a:hover {
+            color: #452c80;
+        }
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            background: black;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            color: white;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #452c80;
+            border-bottom: 2px solid #452c80;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: transparent;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="back-button" onclick="goBack()">Go Back</button>
+        <h1>Our Policies</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#cookies">Cookie Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="privacy">
+        <h2>Privacy Policy</h2>
+        <p>We value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.</p>
+        <p><strong>Information We Collect:</strong> We may collect personal information such as your name, email, and browsing behavior.</p>
+        <p><strong>How We Use Your Data:</strong> We use your data to provide and improve our services, communicate with you, and ensure a secure experience.</p>
+        <p><strong>Data Protection:</strong> We implement security measures to protect your personal information from unauthorized access.</p>
+    </section>
+
+    <section id="terms">
+        <h2>Terms of Service</h2>
+        <p>By accessing our website, you agree to comply with these terms. If you do not agree, please do not use our services.</p>
+        <p><strong>Usage:</strong> You must not use our website for any unlawful or prohibited activities.</p>
+        <p><strong>Intellectual Property:</strong> All content, trademarks, and assets belong to us and cannot be used without permission.</p>
+        <p><strong>Liability:</strong> We are not responsible for any damages arising from the use of our website.</p>
+    </section>
+
+    <section id="cookies">
+        <h2>Cookie Policy</h2>
+        <p>We use cookies to improve your browsing experience. By using our website, you agree to our use of cookies.</p>
+        <p><strong>What Are Cookies?</strong> Cookies are small text files stored on your device to enhance functionality and performance.</p>
+        <p><strong>How We Use Cookies:</strong> We use cookies to analyze traffic, remember user preferences, and enhance security.</p>
+        <p><strong>Managing Cookies:</strong> You can control and disable cookies through your browser settings.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Company Name. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function goBack() {
+            window.location.href = "home.html";
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Policies page loaded successfully.");
+        });
+    </script>
+</body>
+</html>
