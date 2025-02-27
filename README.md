@@ -14,7 +14,7 @@ Digital Boost is a digital marketing agency dedicated to helping businesses enha
 - Customized branding solutions  
 
 ## How to Use 🛠️
-1. Clone the repository:
+1. Clone the repository:  https://github.com/abdifatah-com/Digital-Boost.git
 
 2. Explore the project files & documentation.  
 3. Feel free to contribute or reach out for collaboration!  
@@ -41,7 +41,7 @@ git init
 git add .
 git commit -m "Initial commit - Digital Boost project"
 git branch -M main
-git remote add origin https://github.com/yourusername/Digital-Boost.git
+git remote add origin https://github.com/abdifatah-com/Digital-Boost.git
 git push -u origin main
 
 
