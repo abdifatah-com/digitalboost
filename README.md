@@ -15,9 +15,10 @@ Digital Boost is a digital marketing agency dedicated to helping businesses enha
 
 ## How to Use 🛠️
 1. Clone the repository:  https://github.com/abdifatah-com/Digital-Boost.git
+2. To check the Website clike Here (" https://digitalboosthrg.online/ ")
 
-2. Explore the project files & documentation.  
-3. Feel free to contribute or reach out for collaboration!  
+3. Explore the project files & documentation.  
+4. Feel free to contribute or reach out for collaboration!  
 
 ## Contact 📬
 📩 digitalboosthrg@gmail.com 
