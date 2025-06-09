@@ -21,7 +21,7 @@ Digital Boost is a digital marketing agency dedicated to helping businesses enha
 4. Feel free to contribute or reach out for collaboration!  
 
 ## Contact 📬
-📩 digitalboosthrg@gmail.com 
+📩 info@digitalboosthrg.online
 🌍 digitalboosthrg.online 
 
 
